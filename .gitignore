@@ -1,5 +1,5 @@
 __pycache__
 .DS_Store
 venv
-pybo/migrations
+/pybo/migrations/*.py
 db.sqlite3
