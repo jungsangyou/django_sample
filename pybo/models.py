@@ -6,11 +6,10 @@ class Question(models.Model):
     content = models.TextField()
     create_date = models.DateTimeField()
     
-    
 class Answer(models.Model):
     objects = models.Manager()
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
     content = models.TextField()
-    create_date = models.DateField()
+    create_date = models.DateField() 
     
     
